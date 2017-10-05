@@ -38,6 +38,7 @@ header span {
 /*Main Content Styling*/
 .content {
   display: flex;
+  align-content: flex-end;
 }
 .left-column {
   padding-top: 80px;
@@ -48,6 +49,12 @@ header span {
 .middle-column{
   padding-top: 80px;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.right-column {
+  padding-top: 80px;
+  width: 240px;
   display: flex;
   flex-direction: column;
 }
