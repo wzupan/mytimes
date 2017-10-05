@@ -20,15 +20,15 @@ header span {
   flex-grow: 1;
   padding-left: 30px;color: MediumAquamarine;
 }
-.nav a {
-  color: black;
-}
 .nav {
   display: inline-flex;
-  width: 600px;
+  width: 350px;
   justify-content: space-around;
   align-items: center;
 }
+.nav a {
+  color: black;
+}
 .link {
-  padding: 0 30px;
+  padding: 0 10px;
 }
