@@ -1,3 +1,5 @@
+/*Header Styling*/
+
 header {
   display: flex;
   align-items: center;
@@ -31,4 +33,24 @@ header span {
 }
 .link {
   padding: 0 10px;
+}
+
+/*Main Content Styling*/
+.content {
+  display: flex;
+}
+.left-column {
+  padding-top: 80px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+.middle-column{
+  padding-top: 80px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.story {
+  border: 1px solid black;
 }
