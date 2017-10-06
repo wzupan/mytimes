@@ -38,36 +38,96 @@ header span {
 }
 
 /*Main Content Styling*/
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+div {
+  display: block;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+p {
+  display: block;
+}
 .content {
   display: flex;
-  width: 100%;
   margin: 0 auto 78px auto;
-  padding-top: 40px;
+  width: 1232px;
+  padding-top: 116px;
   align-content: flex-end;
   border: 1px solid black;
   justify-content: space-between;
 }
-.left-column {
-  padding-top: 80px;
-  width: 630px;
+.column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
+}
+.column .left {
+  width: 630px;
   border: 1px solid black;
 }
-.middle-column{
+.column .middle {
   padding-top: 80px;
   width: 300px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
-.right-column {
+.column .right {
   padding-top: 80px;
   width: 240px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
 }
-.story {
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
   border: 2px solid black;
+}
+/*Image Styling*/
+.lead-story .image-content {
+  background-image: url(../photos/main-story.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.narrative {
+  margin-top: 16px;
+}
+p {
+  display: block;
+}
+.stories .text-content {
+  height: 250px;
+}
+.fall-cancelled.image-content {
+  background-image: url(../photos/fall-season.png);
+}
+.pop-culture.image-content {
+  background-image: url(../photos/hipster-cameraman.png);
 }
