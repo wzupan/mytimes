@@ -101,6 +101,9 @@ h3 {
   justify-content: space-between;
   margin-top: 17px;
 }
+.lead-story .image-content span {
+  margin-left: 20px;
+}
 .lead-story .image-content {
   background-image: url(../photos/main-story.png);
   width: 630px;
