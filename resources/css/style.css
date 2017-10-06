@@ -52,18 +52,21 @@ header span {
   width: 630px;
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
 }
 .middle-column{
   padding-top: 80px;
   width: 300px;
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
 }
 .right-column {
   padding-top: 80px;
   width: 240px;
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
 }
 .story {
   border: 2px solid black;
