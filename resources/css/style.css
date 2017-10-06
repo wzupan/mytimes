@@ -20,7 +20,9 @@ header span {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;color: MediumAquamarine;
+  padding-left: 30px;
+  color: MediumAquamarine;
+  border: 1px solid black;
 }
 .nav {
   display: inline-flex;
@@ -38,7 +40,12 @@ header span {
 /*Main Content Styling*/
 .content {
   display: flex;
+  width: 100%;
+  margin: 0 auto 78px auto;
+  padding-top: 40px;
   align-content: flex-end;
+  border: 1px solid black;
+  justify-content: space-between;
 }
 .left-column {
   padding-top: 80px;
@@ -59,5 +66,5 @@ header span {
   flex-direction: column;
 }
 .story {
-  border: 1px solid black;
+  border: 2px solid black;
 }
